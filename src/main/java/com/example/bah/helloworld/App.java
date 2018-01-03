@@ -13,14 +13,15 @@ public class App
 {
     private static Logger logger = Logger.getLogger("App.class");
 
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) {
+        for (int i = 0; i < 10; i++) {
 
-        logger.info("Hello BAH");
+            logger.info("Welcome to BAH!");
+        }
     }
     public void main1(  )
     {
 
-        logger.info("Hello BAH!");
+        logger.info("Welcome to BAH!");
     }
 }
