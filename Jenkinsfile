@@ -27,6 +27,10 @@ node {
                stage('PMD') {
                     sh 'mvn pmd:check'
                 }
+    stage('Deploy') {
+        sh 'mvn deploy'
+    }
+
       /* stage('mail'){
 
          mail body: 'project build successful',
