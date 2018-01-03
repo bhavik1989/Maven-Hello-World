@@ -5,14 +5,22 @@ package com.example.bah.helloworld;
  *
  */
 
+import java.util.logging.Logger;
+
+
+
 public class App
 {
+    private final static Logger logger = Logger.getLogger("App.class");
+
     public static void main( String[] args )
     {
-        System.out.println("Hello BAH!");
+
+        logger.info("Hello BAH");
     }
     public void main1(  )
     {
-        System.out.println("Hello BAH!");
+
+        logger.info("Hello BAH!");
     }
 }
