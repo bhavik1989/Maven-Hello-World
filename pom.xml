@@ -10,11 +10,6 @@
     <name>Maven Web Project</name>
     <description>Maven java Project for Java</description>
 
-    <organization>
-        <name>Mithun Technologies</name>
-        <url>http://mithuntechnologies.com/</url>
-    </organization>
-
     <distributionManagement>
         <repository>
             <id>nexus-releases</id>
